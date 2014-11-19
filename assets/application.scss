@@ -2,6 +2,7 @@
 ---
 
 @import 'fonts';
+@import 'bootstrap-custom';
 @import 'bootstrap';
 
 $footer-height: 50px;
@@ -22,7 +23,7 @@ body {
   width: 100%;
 
   margin-top: $padding-large-vertical;
-  background: $brand-primary;
+  background: $brand-success;
   background-image: url('/assets/images/backgrounds/background.jpg');
 
   opacity: 1;
@@ -38,6 +39,10 @@ body {
   a:hover {
     text-decoration: none;
   }
+}
+
+.attribution {
+  font-size: 0.7em;
 }
 
 /* Header styles
@@ -67,7 +72,8 @@ $header-height: 250px;
 
   .slogan {
     margin: $padding-large-horizontal;
-    font-size: 2em;
+    font-size: 3em;
+    color: $brand-primary;
   }
 }
 
@@ -76,4 +82,9 @@ $header-height: 250px;
 nav {
   margin: 0px;
   margin-top: -50px;
+}
+
+.navbar {
+  background-color: $brand-info;
+  border: 0px;
 }
