@@ -59,6 +59,7 @@ $header-height: 250px;
   height: $header-height;
   margin-top: 0px;
   margin-bottom: 20px;
+  position: relative;
 
   .logo {
     width: 100%;
@@ -71,9 +72,12 @@ $header-height: 250px;
   }
 
   .slogan {
-    margin: $padding-large-horizontal;
     font-size: 3em;
     color: $brand-primary;
+    font-family: $font-family-slogan;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
   }
 }
 
@@ -81,7 +85,7 @@ $header-height: 250px;
 
 nav {
   margin: 0px;
-  margin-top: -50px;
+  margin-top: -25px;
 }
 
 .navbar {
