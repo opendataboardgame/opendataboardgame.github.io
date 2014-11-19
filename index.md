@@ -1,3 +1,3 @@
 ---
-title: The Open Data Board Game Project
+title: The Open Data Boardgame Project
 ---
