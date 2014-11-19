@@ -1,5 +1,79 @@
 ---
 ---
 
+@import 'fonts';
 @import 'bootstrap';
 
+$footer-height: 50px;
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: $footer-height;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  margin-top: $padding-large-vertical;
+  background: $brand-primary;
+  background-image: url('/assets/images/backgrounds/background.jpg');
+
+  opacity: 1;
+  color: white;
+  height: $footer-height;
+
+  padding: $padding-large-vertical $padding-large-horizontal;
+
+  a {
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+/* Header styles
+-------------------------------------------------- */
+
+$header-height: 250px;
+
+.header {
+  top: 0;
+  width: 100%;
+
+  background: $brand-primary;
+  background-image: url('/assets/images/header.jpg');
+  height: $header-height;
+  margin-top: 0px;
+  margin-bottom: 20px;
+
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+
+  p {
+    text-transform: uppercase;
+    text-align: right;
+  }
+
+  .slogan {
+    margin: $padding-large-horizontal;
+    font-size: 2em;
+  }
+}
+
+/* End header */
+
+nav {
+  margin: 0px;
+  margin-top: -50px;
+}

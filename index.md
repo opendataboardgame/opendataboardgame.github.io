@@ -1,5 +1,3 @@
 ---
-layout: default
+title: The Open Data Board Game Project
 ---
-
-#Open Data Board Game
