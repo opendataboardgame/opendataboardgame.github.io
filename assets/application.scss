@@ -88,7 +88,21 @@ nav {
   margin-top: -25px;
 }
 
+.navbar-default .navbar-nav > .active > a {
+  background-color: $brand-primary;
+}
+
 .navbar {
   background-color: $brand-info;
   border: 0px;
+}
+
+.faq {
+  dt {
+    width: 400px;
+    padding-right: 20px;
+  }
+  dd {
+    color: $brand-success;
+  }
 }
