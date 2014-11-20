@@ -8,7 +8,7 @@ There’s been a lot of conversation in the [ODI](http://theodi.org) office abou
 
 ##Why a board game?
 
-Board games communicate complex ideas in simple ways. They’re tactile, social, offer fresh ways of communicating fairly uninteresting themes (trading wheat and sheep anyone??), and sometimes, if they’re good, [Kim Kardashian might buy one](http://www.dailymail.co.uk/tvshowbiz/article-2660807/Kim-Kardashian-buys-Kanye-West-20-custom-Monopoly-board-game-birthday.html).
+Board games communicate complex ideas in simple ways. They’re tactile, social, offer fresh ways of communicating what can be fairly uninteresting themes (trading wheat and sheep anyone??), and sometimes, if they’re good, [Kim Kardashian might buy one](http://www.dailymail.co.uk/tvshowbiz/article-2660807/Kim-Kardashian-buys-Kanye-West-20-custom-Monopoly-board-game-birthday.html).
 
 Open data can be a little... exclusive. If you’re working with data, talking about data, or in an area where more open data could be useful, then it’s easier to grasp. If you’re interested in access to information, or transparency and accountability, then you might have come across open data. But if you’re not already on board (hehe) with open data, you may need other ways to understand its role and impact. A board game is one way of capturing interest in open data, without people necessarily realising they’re absorbing knowledge about open data. Also, it’s pretty clear board games are hip right now. They’re in [Hackney](http://www.draughtslondon.com/)!
 
