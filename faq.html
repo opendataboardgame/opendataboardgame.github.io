@@ -5,6 +5,8 @@ title: Frequently Asked Questions
 <h1>Frequently Asked Questions</h1>
 
 <dl class='faq dl-horizontal'>
-  <dt>Why the Hell are you doing this?</dt>
-  <dd>REASONS</dd>
+  {% for f in site.data.faq %}
+    <dt>{{ f.question }}</dt>
+    <dd>{{ f.answer }}</dd>
+  {% endfor %}
 </dl>
