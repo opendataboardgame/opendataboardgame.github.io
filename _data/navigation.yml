@@ -1,6 +1,8 @@
 - title: About
   path:  /about/
 
-- title: FAQ
-  path:  /faq/
-  
+#- title: FAQ
+#  path:  /faq/
+
+- title: Contribute
+  path: /contribute/
