@@ -28,9 +28,9 @@ As the board game enthusiast Tupac Shakur said, _“I gotta have as much fun and
 
 ##Well, how do we go about starting this?
 
-Good question. Putting something down in a google document is probably a good start. As is having a board games night. At the moment, we’re trying to tease out how an open data board game might actually work. What’s a good game narrative about open data? How would we set the scene? What’s a good board game mechanic for this kind of game? Has someone already posted about “steps to building a board game” on the internet? As a start, we can:
+Good question. At the moment, we’re trying to tease out how an open data board game might actually work. What’s a good game narrative about open data? How would we set the scene? What’s a good board game mechanic for this kind of game? Has someone already posted about “steps to building a board game” on the internet? As a start, we can:
 
-* use the board game night at the ODI as an opportunity to revisit our favourite games, try news ones and think about narratives and ways in which an open data board game could work
+* use the board game night at the ODI as an opportunity to revisit our favourite games, try new ones and think about narratives and ways in which an open data board game could work
 * have a brainstorming trello card or google document, where we suggest ideas (however developed), link to influences and examples of “success stories”
 * Set ourselves a date (i.e. end of January) to reflect on the ideas that have been put forward, and select one or two to workshop.
 
