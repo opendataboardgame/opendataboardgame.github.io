@@ -8,4 +8,4 @@ Some people at the Open Data Institute (ODI) are board game enthusiasts, as well
 
 Click on the tabs for more information, and watch this space.
 
-(and follow us on twitter at @opendatagame)
+(and follow us on twitter at [@opendatagame](http://twitter.com/opendatagame))
