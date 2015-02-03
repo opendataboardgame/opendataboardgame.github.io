@@ -106,3 +106,32 @@ nav {
     color: $brand-success;
   }
 }
+
+/* Venn diagram */
+
+div.venn {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  color: #fff;
+  padding-top: 30px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: "Helvetica Neue", sans-serif;
+  position: relative;
+  word-spacing: 100px;
+  list-style: none;
+}
+
+.one { background-color: #00B7FF; }
+.two { background-color: #E6007C; opacity:0.6; margin-left: -20px; }
+
+div.break {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 7px;
+  clear: both;
+}

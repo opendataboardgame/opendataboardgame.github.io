@@ -6,6 +6,11 @@ title: The Open Data Boardgame Project
 
 Some people at the Open Data Institute (ODI) are board game enthusiasts, as well as open data enthusiasts. This is an opportunity to combine those two passions into one epic board game.
 
+<div class="venn one">open data</div>
+<div class="venn two">board games</div>
+<div class="break"></div>
+
+
 Click on the tabs for more information, and watch this space.
 
 (and follow us on twitter at [@opendatagame](http://twitter.com/opendatagame))
