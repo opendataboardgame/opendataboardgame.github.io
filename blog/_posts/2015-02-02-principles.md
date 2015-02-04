@@ -1,8 +1,6 @@
 ---
-title: Principles
+title: Principles behind an open data board game
 ---
-
-#Principles behind an open data board game
 
 At our first internal board game workshop, we crowd sourced principles to guide the board game design process - what people like and what they want to avoid. These were the results:
 

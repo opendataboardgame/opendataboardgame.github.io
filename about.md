@@ -1,8 +1,6 @@
 ---
-title: About
+title: Building a board game about open data
 ---
-
-#Building a board game about open data
 
 There’s been a lot of conversation in the [ODI](http://theodi.org) office about board games and open data. This could be because we’re all effortlessly ‘on trend’/don’t get out much, or it could be because there’s an untapped pool of board game expertise here poised to make a difference to open data. Maybe a little of both. In any event, about a month ago we created an open data board game [Trello](http://trello.com) board, set up a board game night and then... waited for the open data board game to show itself. This is the first real gesture of intent.  
 
