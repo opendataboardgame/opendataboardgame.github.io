@@ -107,6 +107,7 @@ nav {
   }
 }
 
+
 /* Venn diagram */
 
 div.venn {
@@ -134,4 +135,13 @@ div.break {
   height: 1px;
   margin-bottom: 7px;
   clear: both;
+}
+.blog-archive {
+  dt {
+    font-size: 2em;
+
+  }
+  dd {
+    font-size: 1em;
+  }
 }
