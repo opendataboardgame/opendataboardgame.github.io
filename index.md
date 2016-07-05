@@ -3,9 +3,9 @@ title: Datopolis: the open data board game
 ---
 For twelve months Jeni and Ellen have been working on an open data board game concept. With help from [Folk Labs](http://www.folklabs.com/) **Datopolis** is becoming a reality.
 
-You can read about the development of Datopolis and the history of the open data board game project [here](https://theodi.org/blog/open-data-board-game). Follow us on twitter at [@Datopolis](https://twitter.com/datopolis)
+You can read about the development of Datopolis and the history of the open data board game project [here](https://theodi.org/blog/open-data-board-game). Follow us on twitter at [@Datopolis](https://twitter.com/datopolis).
 
-And sign up to our mailing list for the latest updates.
+Since we started this project, we've seen people testing Datopolis [around the world](https://storify.com/ellenbroad/building-datopolis-an-opendata-board-game). In the next two weeks we will be announcing more exciting Datopolis news. Sign up to our mailing list for the latest updates.
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
