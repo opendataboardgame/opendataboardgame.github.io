@@ -1,0 +1,92 @@
+body {
+	background-image: url('../assets/Background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: -500px;
+	overflow: hidden;
+	font-family: helvetica, sans-serif;
+}
+.logo {
+	position: absolute;
+	top: 1em;
+	left: 3em;
+}
+.logo img {
+	width: 400px;
+}
+#city {
+	width: 120%;
+    position: absolute;
+    bottom: -6em;
+    left: -100px;
+}
+.post {
+	position: relative;
+	margin-left: 1em;
+}
+content a:visited {
+	color: white;
+}
+@media only screen and (max-width: 1200px) {
+  body {
+  	background-position-y: -200px;
+  }
+  #city {
+    bottom: -5em;
+  }
+}
+nav {
+	position: absolute;
+	right: 6em;
+	top: 1em;
+}
+
+button {
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button {
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+content {
+	margin-left: 3em;
+	margin-top: 7em;
+	position: absolute;
+	color: white;
+	line-height: 1.5em;
+	width: 80%;
+}
+
+.cssanimation, .cssanimation span {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+

@@ -1,5 +1,5 @@
 ---
-title: Datopolis: the open data board game
+title: Datopolis - the open data board game
 ---
 For twelve months Jeni and Ellen have been working on an open data board game concept. With help from [Folk Labs](http://www.folklabs.com/) **Datopolis** is becoming a reality.
 
