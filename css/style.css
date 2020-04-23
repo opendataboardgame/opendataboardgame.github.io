@@ -27,6 +27,9 @@ body {
 content a:visited {
 	color: white;
 }
+content a {
+	color: white;
+}
 @media only screen and (max-width: 1200px) {
   body {
   	background-position-y: -200px;
