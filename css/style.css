@@ -51,26 +51,18 @@ content a {
 @media only screen and (max-width: 960px) {
   #city {
     bottom: -4em;
+    content:url("../assets/Foreground_Zoom.png");
+    left: 0;
+    width: 100%;
+    bottom: 0;
   }
 }
 @media only screen and (max-width: 760px) {
-  #city {
-    bottom: -3em;
-    left: -12em;
-    width: 160%;
-  }
   nav {
     text-align: center;
   }
   nav .button {
     margin-bottom: 10px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  #city {
-    bottom: -2em;
-    left: -10em;
-    width: 160%;
   }
 }
 nav {
