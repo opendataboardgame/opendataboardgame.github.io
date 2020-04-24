@@ -4,6 +4,27 @@
 		<link rel="stylesheet" href="css/style.css">
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
+		<style type="text/css">
+			footer {
+				position: absolute;
+				bottom: -50px;
+			}
+			@media only screen and (max-width: 1200px) {
+				footer {
+					bottom: -200px;
+				}
+			}
+			@media only screen and (max-width: 960px) {
+				footer {
+					bottom: -250px;
+				}
+			}
+			@media only screen and (max-width: 600px) {
+				footer {
+					bottom: -300px;
+				}
+			}
+		</style>
 	</head>
 	<body>
 		<img id="city" class="cssanimation sequence fadeInBottom" src="assets/Foreground.png"></img>
@@ -14,5 +35,8 @@
 			<a onclick="alert('coming soon');" class="button">Play online</a>
 			<a href="contact/" class="button">Contact us</a>
 		</nav>
+		<footer>
+			<img id="footer" class="footer" src="assets/Background_Grey.png"></img>
+		</footer>
 	</body>
 </html>
