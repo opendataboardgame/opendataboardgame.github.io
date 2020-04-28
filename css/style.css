@@ -16,6 +16,9 @@ footer {
   position: relative;
   margin-top: -600px;
 }
+.footer {
+  width: 100%;
+}
 .logo {
 	position: relative;
 	top: 0.5em;
