@@ -47,43 +47,6 @@ content a:visited {
 content a {
 	color: white;
 }
-@media only screen and (max-width: 1200px) {
-  body {
-  	background-position-y: -200px;
-  }
-  #city {
-    bottom: -5em;
-  }
-  .cont-video {
-    height: calc(100vh - 300px);
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 960px) {
-  #city {
-    bottom: -4em;
-    content:url("../assets/Foreground_Zoom.png");
-    left: 0;
-    width: 100%;
-    bottom: 0;
-  }
-  .cont-video {
-    height: calc(100vh - 510px);
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 760px) {
-  nav {
-    text-align: center;
-  }
-  nav .button {
-    margin-bottom: 10px;
-  }
-  .cont-video {
-    height: calc(100vh - 620px);
-    width: 100%;
-  }
-}
 nav {
 	position: relative;
   float: right;
@@ -146,4 +109,45 @@ h1 {
   line-height: 3rem;
   -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    background-position-y: -200px;
+  }
+  #city {
+    bottom: -5em;
+  }
+  .cont-video {
+    height: calc(100vh - 300px);
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 960px) {
+  #city {
+    bottom: -4em;
+    content:url("../assets/Foreground_Zoom.png");
+    left: 0;
+    width: 100%;
+    bottom: 0;
+  }
+  .cont-video {
+    height: calc(100vh - 510px);
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 760px) and (-webkit-device-pixel-ratio : 3) {
+  nav {
+    text-align: center;
+  }
+  nav .button {
+    margin-bottom: 10px;
+  }
+  content {
+    width: inherit;
+  }
+  .cont-video {
+    height: calc(100vh - 620px);
+    width: 100%;
+  }
 }
