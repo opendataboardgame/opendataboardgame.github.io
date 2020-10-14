@@ -83,7 +83,7 @@ content {
 	margin-top: 2.5em;
 	color: white;
 	line-height: 1.5em;
-	width: 80%;
+	width: 90%;
   display: inline-block;
   min-height: calc(85vh - 40px);
 }
@@ -135,7 +135,7 @@ h1 {
 }
 .toolCardContainer_two {
   width: 30%;
-  min-width: 250px;
+  min-width: 300px;
 }
 .toolCardContainer_three {
   width: 80%;
@@ -167,6 +167,9 @@ h1 {
 .toolCardContainer container img {
   max-width: 90%;
 }
+.centerContent {
+  text-align: center;
+}
 .half {
   display: inline-block;
   vertical-align: middle;
@@ -187,6 +190,21 @@ h1 {
   }
 }
 @media only screen and (max-width: 960px) {
+  content {
+    width: 90%;
+  }
+  .toolCardContainer {
+    display: block;
+    width: 98%;
+  }
+  .centerSmall {
+    text-align: center;
+  }
+  .toolCardContainer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   #city {
     bottom: -4em;
     content:url("../assets/Foreground_Zoom.png");
@@ -197,6 +215,12 @@ h1 {
   .cont-video {
     height: calc(100vh - 510px);
     width: 100%;
+  }
+}
+@media only screen and (max-width: 760px) {
+  content {
+    margin-left: 1em;
+    width: 87%;
   }
 }
 @media only screen and (max-width: 760px) and (-webkit-device-pixel-ratio : 3) {
@@ -213,12 +237,4 @@ h1 {
     height: calc(100vh - 620px);
     width: 100%;
   }
-}
-
-img {
-  top: -9999px;
-  left: -9999px;
-  right: -9999px;
-  bottom: -9999px;
-  margin: auto;
 }
