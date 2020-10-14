@@ -8,6 +8,7 @@ body {
 	font-family: helvetica, sans-serif;
   margin-left: 0px;
 }
+
 footer {
   left: 0px;
   width: 100%;
@@ -121,15 +122,16 @@ h1 {
 }
 .toolCardContainers {
   display: inline-block;
-  text-align: center;
+/*  text-align: center; */
   width: 100%;
 }
 .toolCardContainer {
   display: inline-block;
-  text-align: center;
+/*  text-align: center; */
   border-radius: 10px;
   padding: 10px;
   margin-top: 10px;
+	vertical-align: top;
 }
 .toolCardContainer_two {
   width: 30%;
@@ -137,6 +139,12 @@ h1 {
 }
 .toolCardContainer_three {
   width: 80%;
+}
+.toolCardContainer_four {
+  width: 55%;
+}
+.toolCardContainer_half {
+	width: 48%;
 }
 .toolCardContainer h2 {
   margin-top: 0.3rem;
@@ -149,6 +157,11 @@ h1 {
 .toolCardContainer_three container {
   display: inline-block;
   width: 32%;
+  text-align: center;
+}
+.toolCardContainer_four container {
+  display: inline-block;
+  width: 20%;
   text-align: center;
 }
 .toolCardContainer container img {
@@ -200,4 +213,12 @@ h1 {
     height: calc(100vh - 620px);
     width: 100%;
   }
+}
+
+img {
+  top: -9999px;
+  left: -9999px;
+  right: -9999px;
+  bottom: -9999px;
+  margin: auto;
 }
