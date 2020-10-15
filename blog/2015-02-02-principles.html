@@ -3,17 +3,30 @@
 		<title>Principles behind an open data board game</title>
 		<link rel="stylesheet" href="../css/style.css">
 		<link rel="stylesheet" href="../css/z_extra.css">
-		<script type="text/javascript" src="../js/jquery.js"></script>
-		<script type="text/javascript" src="../js/script.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("nav");
+			  	if (x.className === "topnav") {
+    				x.className += " responsive";
+  				} else {
+    				x.className = "topnav";
+  				}
+			}
+		</script>
 	</head>
 	<body>
 		<a class="logo" href="../"><img src="../assets/logo.png" alt="Datopolis Logo"></img></a>
-		<nav>
-			<a href="../about/" class="button">About</a>
-			<a href="../blog/" class="button">Blog</a>
-			<a href="https://www.thegamecrafter.com/games/datopolis" target="_blank" class="button">Order a copy</a>
-			<a href="../online/" class="button">Play online</a>
-			<a href="../contact/" class="button">Contact us</a>
+		<nav id="nav" class="topnav">
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    			<i class="fa fa-bars"></i>
+  			</a>
+  			<div class="myLinks responsive">
+				<a href="../about/" class="button">About</a>
+				<a href="../blog/" class="button">Blog</a>
+				<a href="../play/" class="button">Play Datopolis</a>
+				<a href="../contact/" class="button">Contact us</a>
+			</div>
 		</nav>
 		<content>
 			<h1>Principles behind an open data board game</h1>

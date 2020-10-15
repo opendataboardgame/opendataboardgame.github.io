@@ -49,16 +49,15 @@ content a {
 	color: white;
 }
 nav {
-	position: relative;
   float: right;
-	top: 1em;
+  margin-top: 0.6rem;
 }
 
 button {
   background-color: white; /* Green */
   border: none;
   color: black;
-  padding: 15px 32px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -70,7 +69,7 @@ button {
   background-color: white; /* Green */
   border: none;
   color: black;
-  padding: 15px 32px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -80,7 +79,7 @@ button {
 
 content {
 	margin-left: 2em;
-	margin-top: 2.5em;
+	margin-top: 0.5em;
 	color: white;
 	line-height: 1.5em;
 	width: 90%;
@@ -111,6 +110,9 @@ h1 {
   -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
+p.date {
+  font-style: italic;
+}
 .dataTiles {
   width: 100%;
   display: inline-block;
@@ -119,6 +121,9 @@ h1 {
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 1rem;
+}
+.dataTiles a, .dataTiles a:visited {
+  color: inherit;
 }
 .toolCardContainers {
   display: inline-block;
@@ -177,6 +182,12 @@ h1 {
 .half img {
   max-width: 100%;
 }
+nav a.icon {
+  display: none;
+}
+nav #myLinks {
+  display: block;
+}
 @media only screen and (max-width: 1200px) {
   body {
     background-position-y: -200px;
@@ -221,6 +232,53 @@ h1 {
   content {
     margin-left: 1em;
     width: 87%;
+  }
+}
+@media only screen and (max-width: 960px) {
+
+  nav {
+    margin-top: 1rem;
+    width: 100%;
+  }
+/* Hide the links inside the navigation menu (except for logo/home) */
+  nav.topnav a.button {
+    display: none;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  nav.responsive a.button {
+    display: block;
+  }
+
+/* Style the hamburger menu */
+  nav.topnav a.icon {
+    color: black;
+    font-size: 2rem;
+    display: block;
+    position: absolute;
+    top: 0.5em;
+    right: 0.1em;
+    padding: 0.5em;
+    background-color: white;
+  }
+  nav .myLinks .button {
+    display:block;
+    width: 100%;
+  }
+
+/* Add a grey background color on mouse-over */
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+/* Style the active link (or home/logo) */
+  .active {
+    background-color: #4CAF50;
+    color: white;
   }
 }
 @media only screen and (max-width: 760px) and (-webkit-device-pixel-ratio : 3) {

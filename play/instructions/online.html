@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>How to play</title>
+		<link rel="stylesheet" href="../../css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			body {
+				overflow-y: scroll;
+				background-position-y: -300px;
+			}
+		</style>
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("nav");
+			  	if (x.className === "topnav") {
+    				x.className += " responsive";
+  				} else {
+    				x.className = "topnav";
+  				}
+			}
+		</script>
+	</head>
+	<body>
+		<a class="logo" href="../../"><img src="../../assets/logo.png" alt="Datopolis Logo"></img></a>
+		<nav id="nav" class="topnav">
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    			<i class="fa fa-bars"></i>
+  			</a>
+  			<div class="myLinks responsive">
+				<a href="../../about/" class="button">About</a>
+				<a href="../../blog/" class="button">Blog</a>
+				<a href="../../play/" class="button">Play Datopolis</a>
+				<a href="../../contact/" class="button">Contact us</a>
+			</div>
+		</nav>
+		<content>
+			<h1>Instructional videos</h1>
+			<p>The following videos will help you getting started with playing the game online.</p>
+			<h2>Accessing and interacting with the game environment</h2>
+			<p>Essential information on how to access and interact with the game environment, if you have never played a game on tabletopia before, please watch this video. SOUND ON.</p>
+			<div class="cont-video">
+				<iframe src="https://player.vimeo.com/video/455879494" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			</div>
+			<h2>Playing the game</h2>
+			<p>This video demonstrates how the basic version of the game is played and what you do on your turn. During beta testing sessions the host will be able to help you if you get stuck. SOUND ON.</p>
+			<div class="cont-video">
+				<iframe src="https://player.vimeo.com/video/455881489" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			</div>
+		</content>
+	</body>
+</html>
