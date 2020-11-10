@@ -91,6 +91,7 @@ content {
 	color: white;
 	line-height: 1.5em;
 	width: 90%;
+  max-width: 1024px;
   display: inline-block;
   min-height: calc(85vh - 40px);
 }
